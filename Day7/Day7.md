@@ -12,6 +12,7 @@
 <br>
 
 ## 2.8 Functions part Two
+
 ```JS
 const player = {
     name: "Geun",
@@ -47,3 +48,6 @@ const player = {
     }
 }
 ```
+
+### Reference
+> https://nomadcoders.co/javascript-for-beginners/lectures/2881
