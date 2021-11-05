@@ -1,27 +1,43 @@
-// Day6
+// Day7
 
-/*
-const player = ["nico", 10, true];
-console.log(player[0], player[1], player[2]);
-*/
+// Functions part One
+// function sayHello() {
+//     console.log("Hello! My name is variable");
+// }
+
+// sayHello("Geun");
+// sayHello("Jarvis");
+// sayHello("name");
 
 
-// Objects 사용
+// functions part Two
+// function sayHello(nameOfPerson, age) {
+//     console.log("Hello! My name is " + nameOfPerson + " and I'm " + age);
+// }
+
+// sayHello("Geun", 10);
+// sayHello("Jarvis", 23);
+// sayHello("name", 21);
+
+
+// function plus(a, b) {
+//     console.log(a + b);
+// }
+
+// function divide(a, b)   {
+//     console.log(a / b);
+// }
+
+// plus(8, 60);
+// divide(98, 20);
+
+
 const player = {
     name: "Geun",
-    points: 10,
-    fat: true,
-};
-console.log(player);
-console.log("player.name :", player.name);
-console.log("player['name'] :", player["name"]);
+    sayHello: function(otherPersonsName)    {
+        console.log("Hello! " + otherPersonsName + " Nice to meet you!");
+    }
+}
 
-player.fat = false;
-console.log(player);
-// player = false;
-
-
-// 객체 추가 및 업데이트
-player.lastname = "Park";
-player.points = player.points + 15;
-console.log(player);
+console.log(player.name);
+player.sayHello("Lynn");
