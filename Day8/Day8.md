@@ -9,4 +9,7 @@
 <br>
 
 ## 2.10 Recap II
+- 복습
 
+### Reference
+> https://nomadcoders.co/javascript-for-beginners/lectures/2883
